@@ -38,5 +38,8 @@
   },
   "repository": {
     "url": "https://github.com/strPurpleEmperor/antd-img-crop-gif"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
