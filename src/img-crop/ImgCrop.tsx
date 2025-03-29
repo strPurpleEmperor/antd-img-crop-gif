@@ -172,9 +172,6 @@ export const ImgCrop = forwardRef<CropperRef, ImgCropProps>(
           const blob = new Blob([cropGifU8Array], {
             type: file.type,
           });
-          const a = URL.createObjectURL(blob);
-          window.open(a, '_blank');
-          console.log(a);
           return new File([blob], file.name, {
             type: file.type,
           });
