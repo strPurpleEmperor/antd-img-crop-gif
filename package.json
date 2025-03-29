@@ -1,7 +1,7 @@
 {
-  "name": "antd-img-crop-gif",
+  "name": "@zyss/antd-img-crop-gif",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "build": "rslib build",
@@ -35,5 +35,8 @@
     "@types/react-dom": "^18.3.5",
     "tailwindcss": "^4.0.17",
     "typescript": "^5.8.2"
+  },
+  "repository": {
+    "url": "https://github.com/strPurpleEmperor/antd-img-crop-gif"
   }
 }
